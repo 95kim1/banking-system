@@ -1,5 +1,5 @@
 /*
- * BankingSystem ver. 0
+ * BankingSystem version 0.1
  *
  * 파일이름: main.cpp
  * 작 성 자: sh.kim
@@ -17,7 +17,8 @@
  *		4. 둘 이상의 고객 정보 저장을 위해 배열을 사용한다.
  *		5. 계좌번호는 정수의 형태다. 
  * 목 적:
- * 		C 스타일로 코딩해보기. 
+ *		프로그램 틀짜기	
+ * 		C 스타일로 코딩해보기.
  */
 
 #include <iostream>
