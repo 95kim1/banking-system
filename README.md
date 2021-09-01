@@ -7,6 +7,6 @@ practice for cpp and oop
 
 ### version 0.2
 - change struct Account to class Account
-- constructor, destroyer
+- constructor, destructor
 - information hiding
 - encapsulation 
