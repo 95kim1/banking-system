@@ -1,4 +1,3 @@
-
 /*
  * BankingSystem version 0.5
  *
@@ -249,9 +248,6 @@ int AccountHandler::ChooseMenu()
 	while(1)
 	{
 		INPUT_FUNC("# 선택: ", menuNum); 
-//		std::cout << "# 선택: ";
-//		std::cin >> menuNum;
-//		fflush(stdin);
 		
 		if (1 <= menuNum && menuNum <= 5)
 		{
@@ -320,9 +316,6 @@ void AccountHandler::CreateAccount()
 	}
 	
 	INPUT_FUNC("# 계좌번호: ", id);
-//	std::cout << "# 계좌번호: ";
-//	std::cin >> id;
-//	fflush(stdin);
 	
 	index = FindAccountIdx(id);
 	
@@ -335,15 +328,8 @@ void AccountHandler::CreateAccount()
 		return; 
 	}
 	
-	INPUT_FUNC("# 이름: ", name);
-//	std::cout << "# 이름: ";
-//	std::cin >> name;
-//	fflush(stdin);
-	
+	INPUT_FUNC("# 이름: ", name);	
 	INPUT_FUNC("# 잔액: ", balance);
-//	std::cout << "# 잔액: ";
-//	std::cin >> balance;
-//	fflush(stdin);
 	
 	mAccArr[mAccNum] = new Account(id, balance, name);
 	mAccNum++;
@@ -361,9 +347,6 @@ void AccountHandler::DepositeMoney()
 	DisplayTitle("입금하기 시작");
 	
 	INPUT_FUNC("#계좌번호: ", id);
-//	std::cout << "# 계좌번호: ";
-//	std::cin >> id;
-//	fflush(stdin);
 	
 	index = FindAccountIdx(id);
 	
@@ -377,9 +360,6 @@ void AccountHandler::DepositeMoney()
 	}
 	
 	INPUT_FUNC("# 입금할 금액: ", money);
-//	std::cout << "# 입금할 금액: ";
-//	std::cin >> money;
-//	fflush(stdin);
 	
 	mAccArr[index]->DepositeMoney(money);
 	
@@ -398,9 +378,6 @@ void AccountHandler::WithdrawMoney()
 	DisplayTitle("출금하기 시작");
 
 	INPUT_FUNC("# 계좌번호: ", id);	
-//	std::cout << "# 계좌번호: ";
-//	std::cin >> id;
-//	fflush(stdin);
 	
 	index = FindAccountIdx(id);
 	
@@ -414,11 +391,7 @@ void AccountHandler::WithdrawMoney()
 	}
 	
 	INPUT_FUNC("# 출금할 금액: ", money);
-//	std::cout << "# 출금할 금액: ";
-//	std::cin >> money;
-//	fflush(stdin);
-	
-	
+		
 	if (money > mAccArr[index]->GetBalance())
 	{
 		std::cout << std::endl << "@ 잔액 부족." << std::endl;
