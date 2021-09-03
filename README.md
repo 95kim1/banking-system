@@ -10,3 +10,18 @@ practice for cpp and oop
 - constructor, destructor
 - information hiding
 - encapsulation 
+
+### version 0.3
+- add copy constructor
+
+### version 0.4
+- const member function
+
+### version 0.5
+- Control Class
+  + to implement AccountHandler class
+
+### version 0.6
+- Inheritance
+  + Account <-- NormalAccount
+  + NormalAccount <-- HighCreditAccount
