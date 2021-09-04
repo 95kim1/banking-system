@@ -28,3 +28,16 @@ practice for cpp and oop
 
 ### version 0.7
 - 파일 분할
+  + Account.h, Account.cpp
+  + NormalAccount.h
+  + HighCreditAccount.h
+  + CommonDeclare.h
+  + BankingSystemMain.cpp
+
+### version 0.8
+- to add Dynamic array class
+  + AccountDArray
+- to update AccountHandler
+  + to apply AccountDArray
+- to update Account
+  + to add operator functions
