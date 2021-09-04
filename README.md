@@ -25,3 +25,6 @@ practice for cpp and oop
 - Inheritance
   + Account <-- NormalAccount
   + NormalAccount <-- HighCreditAccount
+
+### version 0.7
+- 파일 분할
