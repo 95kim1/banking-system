@@ -51,3 +51,8 @@ practice for cpp and oop
   + char* to String
 - to update HighCreditAcount
   + char* to String
+
+### version 0.92
+- to update AccountDArray into a template
+  + file name changed (AccountDArray -> BoundCheckDArray)
+  + 2 files were integrated (BoundCheckDArray = AccountDArray.h + AccountDArray.cpp)
