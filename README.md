@@ -41,3 +41,13 @@ practice for cpp and oop
   + to apply AccountDArray
 - to update Account
   + to add operator functions
+
+### version 0.9
+- to add String class
+  + String
+- to update Acount
+  + char* to String
+- to update NormalAcount
+  + char* to String
+- to update HighCreditAcount
+  + char* to String

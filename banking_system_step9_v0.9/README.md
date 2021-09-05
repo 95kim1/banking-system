@@ -1,9 +1,9 @@
-# BankingSystem version 0.8
+# BankingSystem version 0.9
 
 ## 작성자
     sh.kim
 ## 날짜 
-    2021-09-04
+    2021-09-05
 ## 내용
     은행계좌 관리 프로그램.
 
@@ -24,7 +24,5 @@
 8. 신용도에 따라 이율 A: 7%, B: 4%, C: 2% 추가. 
 
 ### 업데이트
-- Dynamic array class 추가 및 적용
-    + AccountHandler 변경 (Dynamic array 적용)
-- Account class 연산자 함수 추가
-    + 대입, 비교
+- String class 추가 및 적용
+    + Account, NormalAccount, HighCreditAccount 변경 (String class 적용)
