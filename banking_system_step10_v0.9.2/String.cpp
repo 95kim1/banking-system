@@ -1,7 +1,7 @@
 /*
  * 파일이름: String.cpp
  * 작성자: sh.kim
- * 업데이트 정보: [2021, 09, 05] 파일버전 0.1
+ * 업데이트 정보: [2021, 09, 05] 파일버전 0.2
  */
  
 #include "String.h"
@@ -17,9 +17,12 @@ std::ostream& operator<<(std::ostream& cout, const String& str)
 	cout << str.GetStr();
 	return cout;
 }
-std::istream& operator>>(std::istream& cin, const String& str)
+std::istream& operator>>(std::istream& cin, String& str)
 {
-	cin >> str.GetStr();
+	char tmp[128];
+	cin.get(tmp, 128);
+	fflush(stdin);
+	str = String(tmp);
 	return cin;
 }
 

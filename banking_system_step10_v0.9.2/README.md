@@ -27,3 +27,6 @@
 - AccountDArray 템플릿화
     + AccountDArray.h, AccountDArray.cpp -> BoundCheckDArray.h
     + AccountHandler.h, AccountHandler.cpp에 적용
+- String 입력 연산자 오버로딩 변경
+    + String 용량 초과한 채로 문자열 저장되는 현상 고침.
+    + 한 번에 127글자만 읽을 수 있음.

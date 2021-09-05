@@ -1,7 +1,7 @@
 /*
  * 파일이름: String.h
  * 작성자: sh.kim
- * 업데이트 정보: [2021, 09, 05] 파일버전 0.1
+ * 업데이트 정보: [2021, 09, 05] 파일버전 0.2
  */
  
 #ifndef __STRING_H__
@@ -57,7 +57,7 @@ public:
 
 // 입출력 연산자  (전역 함수 기반)
 std::ostream& operator<<(std::ostream& cout, const String& str);
-std::istream& operator>>(std::istream& cin, const String& str);
+std::istream& operator>>(std::istream& cin, String& str);
 
 // + 연산자 (전역 함수 기반) 
 String operator+(const char* str1, const String& str2);
