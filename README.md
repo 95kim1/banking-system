@@ -56,3 +56,15 @@ practice for cpp and oop
 - to update AccountDArray into a template
   + file name changed (AccountDArray -> BoundCheckDArray)
   + 2 files were integrated (BoundCheckDArray = AccountDArray.h + AccountDArray.cpp)
+
+### version 0.93
+- 예외 처리
+  + AccountHandler.h
+    * 에러 처리 적용
+  + AccountException.h
+    * 음수 금액 입력
+    * 잔액 부족
+    * 동일 계좌 입력
+    * 개설되지 않은 계좌 입력
+    * 신뢰등급: 잘못된 번호 입력
+    * 문자 포함된 금액 입력
